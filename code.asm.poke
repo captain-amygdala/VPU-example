@@ -1,0 +1,4 @@
+ld r0,(r0)
+rts
+st r1,(r0)
+rts
