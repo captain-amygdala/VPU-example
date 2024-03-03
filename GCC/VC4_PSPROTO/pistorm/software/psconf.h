@@ -1,0 +1,23 @@
+#ifndef _PSCONF_H
+#define _PSCONF_H
+
+#define FASTMEM_FASTPATH  1
+#define FASTMEM_AUTOCONFIG 1
+
+#define USE_MAPPING_TABLE 1
+#define USE_MAPPING_LIST  0
+
+#define MAX_MAPPING_DEVICES 16
+#define MAX_MAPPING_LIST_LENGTH 32
+
+#define MAX_AUTOCONFIG_PICS 16
+
+#define A314_ENABLED 1
+
+#define FASTMEM_BASE 0x200000
+#define FASTMEM_SIZE (8 * 1024 * 1024)
+
+#define KICK_BASE 0xF80000
+#define KICK_SIZE (512 * 1024)
+
+#endif /* _PSCONF_H */
